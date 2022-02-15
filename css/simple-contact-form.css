@@ -1,0 +1,33 @@
+/* Simple Contact Form CSS */
+.simple-contact-form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#simple-contact-form__form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea{
+    padding: 10px 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.form-group button{
+    padding: 10px 15px;
+    background-color: black;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+}
